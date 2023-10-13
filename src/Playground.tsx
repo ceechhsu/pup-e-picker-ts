@@ -2,8 +2,15 @@ import { Requests } from "./api";
 
 const messAround = async () => {
   // Write your test code in this function
+  const testDog = {
+    name: "Test Dog",
+    image: "/assets/blue-heeler.png",
+    description: "This is my test dog for post.",
+    isFavorite: false,
+  };
 
-  await Requests.dummyFunction();
+  const response = await Requests.updateDog(1, true);
+  console.log(response, testDog);
 };
 
 export const Playground = () => {

@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"path": "../../../.."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "dom-manipulation-unsolved",
+    "editor.fontSize": 16
+  }
+}
